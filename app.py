@@ -2,7 +2,7 @@ import yfinance as yf
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title='Stock Market Visualization', page_icon= ':bar_chart:', layout="wide")
 
 st.write("""
 # Percent change in Stock Prices
